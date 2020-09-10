@@ -213,7 +213,7 @@ export default class Dropdown extends PureComponent {
       dropdownMargins: { min: minMargin, max: maxMargin },
       animationDuration,
       absoluteRTLLayout,
-      useNativeDriver:true,
+      useNativeDriver,
     } = this.props;
 
     if (disabled) {

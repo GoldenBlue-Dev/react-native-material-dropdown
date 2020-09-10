@@ -75,7 +75,7 @@ export default class Dropdown extends PureComponent {
       'landscape-right',
     ],
 
-    useNativeDriver: false,
+    useNativeDriver: true,
   };
 
   static propTypes = {
@@ -213,7 +213,7 @@ export default class Dropdown extends PureComponent {
       dropdownMargins: { min: minMargin, max: maxMargin },
       animationDuration,
       absoluteRTLLayout,
-      useNativeDriver,
+      useNativeDriver:true,
     } = this.props;
 
     if (disabled) {
@@ -299,7 +299,7 @@ export default class Dropdown extends PureComponent {
             .timing(opacity, {
               duration: animationDuration,
               toValue: 1,
-              useNativeDriver,
+              useNativeDriver: true,
             })
             .start(() => {
               if (this.mounted && 'ios' === Platform.OS) {
@@ -323,7 +323,7 @@ export default class Dropdown extends PureComponent {
       .timing(opacity, {
         duration: animationDuration,
         toValue: 0,
-        useNativeDriver,
+        useNativeDriver:true,
       })
       .start(() => {
         this.focused = false;

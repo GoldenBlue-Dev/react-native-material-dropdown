@@ -21,7 +21,7 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/sandisinbi/react-native-material-dropdown.git"
+    "url": "git://github.com/GoldenBlue-Dev/react-native-material-dropdown.git"
   },
 
   "peerDependencies": {
@@ -44,5 +44,6 @@
     "react-native-material-buttons": "^0.5.0",
     "react-native-material-ripple": "^0.8.0",
     "react-native-material-textfield": "https://github.com/sandisinbi/react-native-material-textfield.git"
+
   }
 }

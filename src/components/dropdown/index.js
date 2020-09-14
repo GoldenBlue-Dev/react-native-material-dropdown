@@ -152,7 +152,7 @@ export default class Dropdown extends PureComponent {
 
     supportedOrientations: PropTypes.arrayOf(PropTypes.string),
 
-    useNativeDriver: PropTypes.bool,
+    useNativeDriver: PropTypes.bool.isRequired,
   };
 
   constructor(props) {
